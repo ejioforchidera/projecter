@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmmaShop - Premium Shopping Experience</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header id="header">
+      <a href="#"><span class="span-logo">EmmaShop</span></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a class="active" href="cart.html"
+              ><i class="fas fa-shopping-cart"></i
+            ></a>
+          </li>
+          <a href="" id="close"> <i class="fas fa-times"></i></a>
+        </ul>
+      </div>
+      <div class="mobile">
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        <i id="bar" class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <!-- contact Section -->
+    <section id="page-header" class="about-header">
+      <h2>#Lets_talk</h2>
+      <p>LEAVE A MESSAGE, We love to hear from you</p>
+    </section>
+
+    <section id="cart">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>
+              <a href=""><i class="fas fa-times-circle"></i></a>
+            </td>
+            <td><img src="images/Retractable Mic.jpeg" alt="" /></td>
+            <td>Retractable Mic</td>
+            <td>$240.00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$240.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href=""><i class="fas fa-times-circle"></i></a>
+            </td>
+            <td><img src="images/pink handbag.jpeg" alt="" /></td>
+            <td>pink handbag</td>
+            <td>$120.50</td>
+            <td><input type="number" value="1" /></td>
+            <td>$120.50</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href=""><i class="fas fa-times-circle"></i></a>
+            </td>
+            <td><img src="images/p4 (8).jpeg" alt="" /></td>
+            <td>Full Outfit</td>
+            <td>$180.00</td>
+            <td><input type="number" value="1" /></td>
+            <td>$180.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="learn-more">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$335.00</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$540.50</strong></td>
+          </tr>
+        </table>
+        <button class="learn-more">Proceed to checkout</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="footer-container">
+        <div class="footer-section">
+          <span class="span-logo">EmmaShop</span>
+          <p class="footer-description">
+            Creating innovative solutions for a better digital shopping
+            experience. Quality products, exceptional service, and unbeatable
+            prices.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <address class="contact-info">
+            <p>
+              <i class="fas fa-map-marker-alt"></i> 123 Innovation Street, Tech
+              City, TC 12345
+            </p>
+            <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@emmacshop.com</p>
+            <p>
+              <i class="fas fa-clock"></i> Mon-Fri: 9AM - 8PM, Sat-Sun: 10AM -
+              6PM
+            </p>
+          </address>
+        </div>
+        <div class="pay-col">
+          <h4>Install Our App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="pay">
+            <img src="images/app.jpg" alt="App Store" />
+            <img src="images/play.jpg" alt="Google Play" />
+          </div>
+          <p>Secured Payment Gateways</p>
+          <img src="images/pay.png" alt="Payment Methods" />
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 EmmaShop. All rights reserved. | exceptional shopping
+          experience
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
